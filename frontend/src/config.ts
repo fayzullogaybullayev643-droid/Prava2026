@@ -3,4 +3,5 @@
 const hostname = window.location.hostname;
 const port = 3001; // The port where the backend server is running
 
-export const API_BASE_URL = `http://${hostname}:${port}/api`;
+// Prefer environment variable (for production/Netlify), otherwise auto-detect (for local dev)
+export const API_BASE_URL = import.meta.env.VITE_API_URL || `http://${hostname}:${port}/api`;
