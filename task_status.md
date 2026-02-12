@@ -1,0 +1,45 @@
+- [x] Loyihaning joriy holatini aniqlash <!-- id: 0 -->
+    - [x] Frontend strukturasi va `App.tsx` ni tekshirish <!-- id: 1 -->
+    - [x] Backend `index.ts` va routelarni tekshirish <!-- id: 2 -->
+    - [x] Mavjud funksionallik hisobotini tayyorlash <!-- id: 3 -->
+- [x] Foydalanuvchiga hisobot berish <!-- id: 4 -->
+- [x] Loyihani ishga tushirish va namoyish qilish <!-- id: 5 -->
+    - [x] Backend serverni ishga tushirish (`npm start`) <!-- id: 6 -->
+    - [x] Frontend serverni ishga tushirish (`npm run dev`) <!-- id: 7 -->
+    - [x] Brauzerda tekshirish (http://localhost:5173 va http://localhost:3001) <!-- id: 8 -->
+- [x] Ma'lumotlar bazasini (persistent database) ulash <!-- id: 9 -->
+    - [x] Backend serverni to'xtatish <!-- id: 10 -->
+    - [x] `better-sqlite3` kutubxonasini o'rnatish <!-- id: 11 -->
+    - [x] `src/database.ts` faylini yaratish va jadval tuzish <!-- id: 12 -->
+    - [x] `auth.controller.ts` ni bazaga ulash <!-- id: 13 -->
+    - [x] Serverni qayta ishga tushirib tekshirish <!-- id: 14 -->
+- [x] Mobil qurilmalardan kirishni sozlash (Local Network) <!-- id: 15 -->
+    - [x] `frontend/package.json` da `vite --host` ni qo'shish <!-- id: 16 -->
+    - [x] Backendda CORS sozlamalarini tekshirish (barcha IP larga ruxsat berish) <!-- id: 17 -->
+    - [x] Frontend serverni qayta ishga tushirish <!-- id: 18 -->
+    - [x] IP manzilni aniqlash (`ipconfig`) <!-- id: 19 -->
+    - [x] Foydalanuvchiga aniq linkni berish <!-- id: 20 -->
+- [x] Xatoliklarni tuzatish ("Baza ishlamadi") <!-- id: 21 -->
+    - [x] Backend loglarini tekshirish <!-- id: 22 -->
+    - [x] `index.ts` da `0.0.0.0` hostni qo'shish va `PORT` turini to'g'irlash <!-- id: 23 -->
+    - [x] Backendni qayta ishga tushirish (`Server 3001-portda ishga tushdi` va `CREATE TABLE` tasdiqlandi) <!-- id: 24 -->
+- [x] Test savollari chiqmasligi muammosini hal qilish <!-- id: 25 -->
+    - [x] `src/controllers/question.controller.ts` ni tekshirish <!-- id: 26 -->
+    - [x] `src/data/questions.data.ts` ni tekshirish (savollar bormi?) <!-- id: 27 -->
+    - [x] API javobini tekshirish (`GET /api/questions`) <!-- id: 28 -->
+    - [x] Frontendda API xatoligini ushlash va ekranga chiqarish (`App.tsx`) <!-- id: 29 -->
+    - [x] Bazaga default user (`user`/`1234`) qo'shish (`database.ts`) <!-- id: 30 -->
+    - [x] Frontend serverni qayta ishga tushirish (yangilanishlarni qo'llash uchun) <!-- id: 31 -->
+    - [x] Foydalanuvchiga xabar berish <!-- id: 32 -->
+- [x] Rasmlar chiqmasligi muammosini hal qilish <!-- id: 33 -->
+    - [x] `QuestionCard.tsx` da rasm chiqarish kodini tekshirish <!-- id: 34 -->
+    - [x] Rasm URL manbalarini tekshirish (Wikimedia muammoga uchrashi mumkin) <!-- id: 35 -->
+- [x] Savolni o'tkazib yuborish (Skip Question) <!-- id: 36 -->
+    - [x] `App.tsx` da "O'tkazib yuborish" tugmasini qo'shish <!-- id: 37 -->
+    - [x] O'tkazib yuborilgan savollar ro'yxatini (`skippedQuestions`) saqlash <!-- id: 38 -->
+    - [x] Test oxirida o'tkazib yuborilgan savollarga qaytish logikasini yozish <!-- id: 39 -->
+- [ ] Rasmlarni yangilash (Custom Images) <!-- id: 40 -->
+    - [x] `frontend/public/images` papkasini yaratish <!-- id: 41 -->
+    - [x] 1-savol uchun chorraha sxemasini yaratish (`intersection.png`) <!-- id: 42 -->
+    - [x] `questions.data.ts` da rasm manzilini o'zgartirish <!-- id: 43 -->
+    - [ ] Qolgan savollar uchun rasmlar yaratish (Keyinroq) <!-- id: 44 -->

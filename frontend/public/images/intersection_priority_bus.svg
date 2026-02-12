@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <polygon points="100,10 190,100 100,190 10,100" fill="#FFD700" stroke="white" stroke-width="15"/>
+  <polygon points="100,25 175,100 100,175 25,100" fill="#FFD700"/> <!-- Inner yellow to cover stroke overlap if needed, or just single poly -->
+</svg>

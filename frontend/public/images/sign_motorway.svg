@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <rect width="200" height="200" fill="#007bff" rx="10"/> <!-- Usually Green or Blue depending on country, UZ uses Green? Let's assume Blue/Green standard -->
+  <rect width="200" height="200" fill="#008000" rx="10"/>
+  <path d="M100,50 L100,180" stroke="white" stroke-width="20"/>
+  <path d="M70,180 Q80,100 100,80 Q120,100 130,180" fill="none" stroke="white" stroke-width="10"/>
+  <line x1="40" y1="130" x2="160" y2="130" stroke="white" stroke-width="10"/> 
+  <!-- Bridge symbol abstraction -->
+</svg>

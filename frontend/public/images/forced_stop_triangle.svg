@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <polygon points="100,20 180,180 20,180" fill="none" stroke="#D40000" stroke-width="20" stroke-linejoin="round"/>
+  <polygon points="100,50 160,165 40,165" fill="#D40000" opacity="0.3"/> 
+  <!-- Inner orange triangle often seen -->
+  <polygon points="100,50 160,165 40,165" fill="#FF8C00"/>
+</svg>

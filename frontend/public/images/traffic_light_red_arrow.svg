@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <rect x="60" y="20" width="80" height="160" rx="10" fill="#1a202c"/>
+  <circle cx="100" cy="60" r="25" fill="#D40000"/>
+  <circle cx="100" cy="140" r="25" fill="#333"/>
+  <!-- Additional section for arrow -->
+  <rect x="140" y="110" width="40" height="60" rx="5" fill="#1a202c"/>
+  <circle cx="160" cy="140" r="15" fill="none" stroke="#333" stroke-width="2"/>
+  <path d="M150,140 L165,140 L160,135 M165,140 L160,145" stroke="#00FF00" stroke-width="3" fill="none"/> 
+  <!-- Green arrow light -->
+</svg>
