@@ -74,17 +74,17 @@ export const Login: React.FC<LoginProps> = ({ onLogin }) => {
 
                 <form onSubmit={handleSubmit} className="space-y-6">
                     <div>
-                        <label className="block text-sm font-semibold text-gray-700 mb-2">Login</label>
+                        <label className="block text-sm font-semibold text-gray-700 mb-2">{isLogin ? "Email yoki Login" : "Email"}</label>
                         <div className="relative group">
                             <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
                                 <User className="text-gray-400 group-focus-within:text-blue-500 transition-colors" size={20} />
                             </div>
                             <input
-                                type="text"
+                                type={isLogin ? 'text' : 'email'}
                                 value={username}
                                 onChange={(e) => setUsername(e.target.value)}
                                 className="w-full pl-10 pr-4 py-3.5 bg-gray-50 border border-gray-200 rounded-xl focus:ring-4 focus:ring-blue-500/20 focus:border-blue-500 outline-none transition-all font-medium text-gray-800"
-                                placeholder="Foydalanuvchi nomi"
+                                placeholder={isLogin ? "Foydalanuvchi nomi yoki Email" : "Masalan: ali@gmail.com"}
                                 required
                             />
                         </div>
